@@ -4,10 +4,10 @@ import "./homepage.styles.scss";
 import "../components/directory/directory.component";
 import Directory from "../components/directory/directory.component";
 
-const HomePage = () => {
+const HomePage = ({ history }) => {
   return (
     <div className="homepage">
-      <Directory></Directory>
+      <Directory />
     </div>
   );
 };
